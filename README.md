@@ -1,4 +1,4 @@
-# update-and-refresh_scoop-bat
+# update-and-refresh-scoop-bat
 
 This repository contains a batch file that automates the update, cleanup, and cache management of Scoop, a command-line installer for Windows.
 
