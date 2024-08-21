@@ -4,7 +4,7 @@ This repository contains a batch file that automates the update, cleanup, and ca
 
 ## Description
 
-The `update_scoop.bat` batch file performs the following tasks:
+The `update_and_refresh_scoop.bat` batch file performs the following tasks:
 
 1. **Requests Administrative Privileges:** Ensures the script runs with administrative rights. If not already running as an administrator, it prompts for elevated permissions.
 
@@ -21,10 +21,10 @@ The `update_scoop.bat` batch file performs the following tasks:
 ## Usage
 
 1. **Download the Batch File:**
-   - Download `update_scoop.bat` from this repository.
+   - Download `update_and_refresh_scoop.bat` from this repository.
 
 2. **Run the Batch File:**
-   - Left-click on `update_scoop.bat`.
+   - Left-click on `update_and_refresh_scoop.bat`.
 
 3. **Follow Prompts:**
    - The batch file will prompt for administrative privileges if it is not already running with elevated rights.
