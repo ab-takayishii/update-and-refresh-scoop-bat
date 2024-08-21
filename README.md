@@ -1,55 +1,51 @@
 # update-and-refresh-scoop-bat
 
-This repository contains a batch file that automates the update, cleanup, and cache management of Scoop, a command-line installer for Windows.
+このリポジトリには、Windows用コマンドラインインストーラであるScoopの更新、クリーンアップ、およびキャッシュ管理を自動化するバッチファイルが含まれています。
 
-## Description
+## 説明
 
-The `update_and_refresh_scoop.bat` batch file performs the following tasks:
+`update_and_refresh_scoop.bat` バッチファイルは、以下のタスクを実行します:
 
-1. **Requests Administrative Privileges:** Ensures the script runs with administrative rights. If not already running as an administrator, it prompts for elevated permissions.
+1. **管理者権限の要求:** スクリプトが管理者権限で実行されることを確認します。すでに管理者として実行されていない場合は、権限の昇格を求めます。
 
-2. **Updates Scoop:** Uses Scoop's built-in `update` command to refresh Scoop itself.
+2. **Scoopの更新:** Scoop自体を更新するために、Scoopの組み込みコマンド`update`を使用します。
 
-3. **Updates Installed Apps:** Updates all installed applications managed by Scoop.
+3. **インストール済みアプリの更新:** Scoopで管理されているすべてのインストール済みアプリケーションを更新します。
 
-4. **Cleans Up Old Versions and Installers:** Removes old versions and installers to free up disk space.
+4. **古いバージョンとインストーラのクリーンアップ:** ディスク容量を確保するために、古いバージョンとインストーラを削除します。
 
-5. **Cleans Up Scoop Cache:** Clears the Scoop cache to reclaim disk space and improve performance.
+5. **Scoopキャッシュのクリーンアップ:** ディスク容量を回復し、パフォーマンスを向上させるために、Scoopのキャッシュをクリアします。
 
-6. **Completion Message:** Displays a message indicating that the update, cleanup, and cache management processes are complete. Waits for user input before closing the window.
+6. **完了メッセージ:** 更新、クリーンアップ、キャッシュ管理のプロセスが完了したことを示すメッセージを表示し、ウィンドウが閉じる前にユーザーの入力を待ちます。
 
-## Usage
+## 使用方法
 
-1. **Download the Batch File:**
-   - Download `update_and_refresh_scoop.bat` from this repository.
+1. **バッチファイルをダウンロード:**
+   - このリポジトリから `update_and_refresh_scoop.bat` をダウンロードします。
 
-2. **Run the Batch File:**
-   - Left-click on `update_and_refresh_scoop.bat`.
+2. **バッチファイルを実行:**
+   - `update_and_refresh_scoop.bat` を左クリックで実行します。
 
-3. **Follow Prompts:**
-   - The batch file will prompt for administrative privileges if it is not already running with elevated rights.
-   - The script will then proceed to update Scoop, update installed apps, clean up old versions and installers, and clean up the Scoop cache.
+3. **プロンプトに従う:**
+   - バッチファイルが管理者権限で実行されていない場合は、管理者権限の昇格を求められます。
+   - スクリプトはその後、Scoopの更新、インストール済みアプリの更新、古いバージョンとインストーラのクリーンアップ、Scoopキャッシュのクリーンアップを順次実行します。
 
-4. **Completion:**
-   - After all tasks are completed, the script will display a completion message and wait for a key press before closing the command window.
+4. **完了:**
+   - すべてのタスクが完了すると、スクリプトは完了メッセージを表示し、コマンドウィンドウが閉じる前にキー入力を待ちます。
 
-## Notes
+## 注意事項
 
-- **Administrative Rights:** Administrative privileges are required to perform these operations. Ensure you have the necessary permissions.
-- **Scoop Installation:** Make sure Scoop is installed on your system before running this script.
+- **管理者権限:** これらの操作を実行するには管理者権限が必要です。必要な権限を持っていることを確認してください。
+- **Scoopのインストール:** このスクリプトを実行する前に、システムにScoopがインストールされていることを確認してください。
 
-## License
+## ライセンス
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+このプロジェクトはMITライセンスの下でライセンスされています。詳細は[LICENSE](LICENSE)ファイルを参照してください。
 
-## Contributing
+## 貢献
 
-Feel free to submit issues and pull requests to improve the script or add new features.
+スクリプトの改善や新機能の追加については、問題の提出やプルリクエストを歓迎します。
 
-## Contact
+## コンタクト
 
-For any questions or support, please open an issue in this repository or contact the repository owner.
-
----
-
-Feel free to customize this README further based on any additional details or instructions you'd like to include.
+質問やサポートについては、このリポジトリに問題を投稿するか、リポジトリの所有者に連絡してください。
